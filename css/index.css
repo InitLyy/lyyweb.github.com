@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-02 14:05:30
+ * @version $Id$
+ */
+#background{
+	width: 400px;
+	height: 50px;
+	background-color: white;
+}
+#background div{
+	font-family: 微软雅黑,宋体;
+	margin:auto;
+	font-size: 30px;
+}
+#word {
+	font-family: 微软雅黑,宋体;
+	margin:auto;
+	font-size: 20px;
+}
+

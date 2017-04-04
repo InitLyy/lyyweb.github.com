@@ -1,0 +1,137 @@
+div{
+	box-sizing: border-box;
+}
+.all{
+	width: 400px;
+	height: 700px;
+	border: solid 2px lightgrey;
+	margin: 0px auto;
+}
+.all div{
+	margin: 0px;
+	padding:0px;
+}
+.top{
+	width: 100%;
+	height: 6%;
+	background-color: lightgrey;
+}
+.top-txt{
+	float: left;
+	width: 20%;
+	height: 8%;
+	font-size: 1.4em;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.top-txtselected{
+	float: left;
+	width: 20%;
+	height: 100%;
+	background-color: white;
+	font-size: 1.4em;
+	text-align: center;
+}
+.top-box{
+	width: 100%;
+	height: 12%;
+	background-color: white;
+}
+.top-box div{
+	width: 92%;
+	height: 30%;
+	margin: 10px auto;
+	border: solid black 1px;
+}
+.mid1{
+	width: 100%;
+	height: 30%;
+	border: solid 1px transparent;
+	border-top: solid 1px lightgrey;
+	border-bottom: solid 1px lightgrey;
+	background-color: white;
+}
+.mid1 .mid-top{
+	width: 92%;
+	height: 60%;
+	margin: 10px auto;
+}
+.mid-top .pic{
+	float: left;
+	width: 118px;
+	height: 118px;
+	display: inline-block;
+	background-color: red;
+}
+.mid-top .box{
+	float: right;
+	width: 60%;
+	height: 25%;
+	margin: 15px auto;
+	border:solid 1px black;
+}
+.mid1 .mid-bt{
+	height: 20%;
+	width: 92%;
+	margin: 10px auto;
+}
+.mid-bt .button{
+	float: left;
+	width: 30%;
+	height: 80%;
+	margin-right: 10px;
+	background-color: red;
+	text-align: center;
+	color: white;
+}
+.mid2{
+	width: 100%;
+	height: 7%;
+	margin: 10px auto;
+}
+.mid2 div{
+	width: 92%;
+	height: 70%;
+	margin: 10px auto;
+	border: solid 1px black;
+}
+.buttom{
+	width: 100%;
+	height: 40.5%;
+	border: solid 1px transparent;
+	border-top: solid 1px lightgrey;
+}
+.buttom .bt-box1{
+	float: left;
+	width: 40%;
+	height: 70%;
+	border: 1px transparent solid;
+	border-right: 1px lightgrey solid;
+	border-bottom: 1px lightgrey solid;
+	text-align: center;
+}
+.bt-box1 .box-pic{
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 50%;
+	height: 50%;
+	background-color: red;
+}
+
+.buttom .bottom-small{
+	float: left;
+	width: 20%;
+	height: 35%;
+	border: 1px transparent solid;
+	border-right: 1px lightgrey solid;
+	border-bottom: 1px lightgrey solid;
+	text-align: center;
+}
+.bottom-small .bottom-smallpic{
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 50%;
+	height: 50%;
+	background-color: red;
+}
