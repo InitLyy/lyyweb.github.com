@@ -1,0 +1,272 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-31 10:35:04
+ * @version $Id$
+ */
+.background{
+	width: 1200px;
+	height: 700px;
+	display: flex;
+	background: lightgrey;
+	flex-wrap: wrap;
+}
+.pic-background{
+	width:31%;
+	height:46%;
+	margin: 10px auto;
+	border: solid 1px grey;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+}
+img{
+	width:100%;
+	height: 70%;
+	margin: 0 auto; 
+}
+.pic-txt{
+	 width: 100%;
+	 height: 30%;
+	 margin: 0 auto;
+	 display: flex;
+	 flex-direction: column;
+}
+.pic-title{
+	width: 100%;
+	height:20%;
+	margin: 10px;
+	margin-bottom: 0px;
+	font-size: 15px;
+	font-family: 微软雅黑,宋体;
+	color: black;
+}
+.pic-detile{
+	width: 100%;
+	height: 33%;
+	margin: 5px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.pic-detile-act{
+	height: 10%;
+	margin: 0 auto;
+	margin-left: 10px;
+	font-size: 15px;
+	color: red;
+	font-family: 微软雅黑,宋体;
+}
+.pic-detile-intro{
+	height:20%;
+	margin: 0px auto;
+	margin-right: 10px;
+	color: lightgrey;
+	font-size: 12px;
+	font-family: 微软雅黑,宋体;	
+}
+.pic-price{
+	width: 100%;
+	height: 100%;
+	margin: 10px auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+}
+.pic-price-sign{
+	width: 5%;
+	height: 100%;
+	margin-left: 10px;
+	font-size: 17px;
+	color: red;
+}
+.pic-price-now{
+	width: 15%;
+	height: 100%;
+	margin: 0px;
+	font-size: 30px;
+	color: red;
+}
+.pic-price-before{
+	width: 60%;
+	height: 100%;
+	font-size: 15px;
+	color: lightgrey;
+	text-decoration: line-through;
+}
+.pic-price-soldnum{
+	height: 40%;
+	font-size: 15px;
+	color: red;
+}
+.pic-price-soldp{
+	width: 15%;
+	height: 40%;
+	font-size: 15px;
+	color: lightgrey;
+}
+
+
+
+.background2{
+	width:1000px;
+	height:1000px;
+	background-color: rgb(153,189,144);
+	padding: 100px;
+/*	display: flex;
+	flex-direction: column;*/
+}
+.pic2{
+	width: 780px;
+	height: 500px;
+}
+.pic2-pic{
+	width: 780px;
+	height: 500px;
+	background-color: lightyellow;
+	border: solid 1px black;
+}
+.pic2-txt{
+	width: 780px;
+	height: 220px;
+	background-color: pink;
+	border: solid 1px black;
+	border-top: 0px;
+	display: flex;
+	flex-direction: column;
+}
+.pic2-txt-title{
+	margin: 15px;
+	padding-left: 10px;
+	width: 92%;
+	height: 70%;
+	background-color: white;
+	border: solid 1px black;
+	font-size: 20px;
+	text-align: left;
+}
+.pic2-txt-detile{
+	margin: 0 auto;
+	margin-left: 15px;
+	padding-left: 10px;
+	width: 92%;
+	height: 70%;
+	background-color: white;
+	border: solid 1px black;
+	font-size: 20px;
+	text-align: left;
+}
+.pic2-txt-price{
+	margin: 15px ;
+	width: 93.5%;
+	height: 100%;
+	background-color: white;
+	border: solid 1px black;
+	font-size: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+}
+.pic2-price-sign{
+	width: 3%;
+	height: 70%;
+	margin-left: 10px;
+	font-size: 17px;
+	text-align: left;
+	color: red;
+}
+.pic2-price-now{
+	width: 18%;
+	height: 70%;
+	margin: 0px;
+	font-size: 30px;
+	text-align: left;
+	color: red;
+}
+
+.box{
+	width: 800px;
+	height: 600px;
+	background-color: #CDD3F5;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.box1{
+	width: 760px;
+	height: 120px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border: solid 2px rgb(93,109,96);
+	background-color: rgb(153,189,144);
+	display: flex;
+	justify-content: space-between;
+}
+.box2{
+	width: 760px;
+	height: 440px;
+	margin: 20px;
+	border: solid 2px rgb(93,109,96);
+	background-color: rgb(153,189,144);
+	display: flex;
+	justify-content: space-between;
+}
+.bbox{
+	width: 80px;
+	height: 80px;
+	border: solid 2px rgb(93,109,96);
+	background-color:  #CDD3F5;
+}
+.sbox{
+	width: 50px;
+	height: 50px;
+	border: solid 2px rgb(93,109,96);
+	background-color:  #CDD3F5;
+}
+.lbox{
+	width: 480px;
+	height: 40px;
+	border: solid 2px rgb(93,109,96);
+	background-color:  #CDD3F5;
+}
+.fbox{
+	width: 200px;
+	height: 300px;
+	border: solid 2px rgb(93,109,96);
+	background-color:  #CDD3F5;
+}
+.box1-1{
+	width: 460px;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.box1-2{
+	width: 80px;
+	padding-top: 10px;
+	padding-right: 10px;
+	justify-content: flex-end;
+}
+.box2-1{
+	width: 200px;
+	height: 370px;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.box2-1-2{
+	width: 200px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.box2-2{
+	padding: 10px;
+	width: 480px;
+	height: 370px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
