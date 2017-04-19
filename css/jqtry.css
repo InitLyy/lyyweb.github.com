@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-13 16:15:55
+ * @version $Id$
+ */
+.btn{
+	width: 100px;
+	height: 68px;
+	display: flex;
+	font-size:20px;
+	justify-content: center;
+	align-items: center;
+	background-color: #666;
+	color: white;
+	border-radius: 10px;
+	box-shadow: 3px 3px 4px #444;
+}
+
+.cont{
+	width: 600px;
+	height: 400px;
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+.background1{
+	width: 500px;
+	background-color: white;
+	margin: 20px;
+	padding: 10px;
+	border: solid 1px black;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.b-pic{
+	width: 80px;
+	height: 80px;
+	background-color: #aaa;
+	margin: 10px;
+	z-index: 0;
+}
+
+.b-bpic{
+	width: 800px;
+	height: 800px;
+	background-color: #aaa;
+	margin: 10px;
+}
+.background3{
+	width: 400px;
+	margin: 10px;
+	padding: 10px;
+	border: solid 1px black;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+
+}
+.button0{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #339966;
+	color: white;
+	text-align: center;
+}
+.line-3{
+	margin: 10px auto;
+	border: solid 1px black;
+	width: 360px;
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.line-txt{
+	width: 30px;
+	height: 30px;
+	line-height:30px;
+	text-align: center; 
+	border-right: solid 1px black;
+}
+.button1{
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	border-left : solid 1px black; 
+	text-align: center;
+}
+
+
+.background2{
+	width: 500px;
+	height: 500px;
+}
+.b2-title{
+	width: 280px;
+	height: 40px;
+	border: solid 1px black;
+	border-right: 0px;
+	border-bottom: 0px;
+	display: flex;
+	flex-direction: row;
+}
+.b2-title-btn{
+	width: 98px;
+	height: 40px;
+	border: solid 0px black;
+	border-right: solid 1px black;
+	line-height: 40px;
+	text-align: center;
+	background-color: white;
+}
+.b2-body{
+	width: 400px;
+	height: 400px;
+	line-height: 400px;
+	font-size: 50px;
+	text-align: center;
+	border: solid 1px black;
+}
