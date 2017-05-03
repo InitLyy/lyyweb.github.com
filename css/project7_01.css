@@ -1,0 +1,367 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-28 10:23:37
+ * @version $Id$
+ */
+.background{
+	background-color: #f1f0ed;
+}
+.container-fluid{
+	border: solid 2px #e3e8dc;
+	border-right: transparent;
+	border-left: transparent;
+	width:360px;
+	background-color: white;
+	margin-bottom: 10px;
+}
+.head{
+	margin-left:-15px;
+	margin-right: -15px;
+	height:50PX;
+	background: #00C2AF;
+	box-shadow: 0px 1px 1px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.form-control{
+	width: 40px;
+	background-color: #00C2AF;
+	border: transparent;
+	box-shadow: 0px 0px 0px;
+}
+.glyphicon glyphicon-search{
+	margin-right: -15px;
+}
+.search{
+	width: 240px;
+	height: 35px;
+	background-color: #00A695;
+	border: 0px;
+	border-radius: 5px 5px 5px;
+}
+.user{
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 0.7em;
+	color: white;
+	background-color:#00C2AF;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.fa-user-o{
+	align-self: center;
+	color: white;
+}
+.items{
+	margin-left:-15px;
+	margin-right: -15px;
+	background-color: white;
+/*	height: 305px;*/
+	height: 180px;
+	padding:10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.img-circle{
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	border: transparent;
+	background-color: #eeeeee;
+}
+.img-box{
+	background-color: white;
+	width:75px;
+	height:80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	border:transparent;
+
+}
+.img-txt{
+	text-align: center;
+	color: black;
+	font-size: 10px;
+}
+.blank{
+	width: 360px;
+	height: 10px;
+	background-color: white;
+}
+.col-xs-4{
+	padding: 10px;
+/*	display: flex;
+	flex-direction: row-reverse;*/
+}
+.col-xs-8{
+	padding: 10px;
+}
+.neck-4{
+	border-right: solid 2px #f0f1ed;
+	background-color: white;
+	height: 130px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.neck-4-head{
+	margin:3px;
+	margin-left: 10px;
+	font-size: 0.9em;
+	align-self: stretch;
+	color: #00A400;
+}
+.neck-4-middle{
+	margin:3px;
+	font-size: 0.8em;
+	margin-left: 10px;
+	align-self: stretch;
+	color: #7A7A7A;
+}
+.neck-4-img{
+	width: 80px;
+	height: 80px;
+	background-color: #666666;
+	border: transparent;
+}
+.neck-8{
+	margin-left: -15px;
+	margin-right:-15px;
+	border-bottom: solid 2px #f0f1ed;
+	background-color:white;
+	height: 65px;
+	display: flex;
+	justify-content: space-between;
+}
+.neck-8-txt{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.neck-8-head{
+	margin-left: 10px;
+	color: #ff3c00;
+	font-size: 0.9em;
+}
+.neck-8-middle{
+	margin-left: 10px;
+	color: #7a7a7a;
+	font-size: 0.8em;
+}
+.neck-8-img{
+	margin: 40px;
+	margin-top:0px;
+	width: 50px;
+	height: 50px;
+	background-color: #666666;
+}
+.neck-8-61{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	height: 65px;
+	border-right: solid 2px #f0f1ed;
+}
+.neck-8-62{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	height: 65px;
+}
+.neck-8-6-head{
+	color: #ff49ab;
+	font-size: 0.9em;
+	margin: 10px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 3px;
+}
+.neck-8-6-img{
+	width: 35px;
+	height: 35px;
+	margin-left: 20px;
+	background-color: #666666;
+}
+.neck-8-62 .neck-8-middle{
+	margin-left: 5px;
+}
+.time{
+	display: flex;
+	margin-left: 5px;
+}
+.hour{
+	width: 25px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #4b4b4b;
+	color: white;
+	border-radius: 4px 4px 5px;
+	text-align: center;
+}
+.minute{
+	width: 25px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #4b4b4b;
+	color: white;
+	border-radius: 4px 4px 5px;
+	text-align: center;
+}
+.second{
+	width: 25px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #4b4b4b;
+	color: white;
+	border-radius: 4px 4px 5px;
+	text-align: center;
+}
+.middle{
+	height: 65px;
+	margin-left:-15px;
+	margin-right: -15px;
+	border-right: solid 2px #f1f0ed;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+.middle .neck-8-img{
+	margin-top: 7px;
+}
+.middle1{
+	height: 65px;
+	margin-left:-15px;
+	margin-right: -15px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+.middle1 .neck-8-img{
+	margin-top: 7px;
+}
+.title{
+	height: 35px;
+	line-height: 35px;
+	font-size: 1.3em;
+	background-color: white;
+	border-bottom: solid 2px #f0f1ed;
+}
+.sale{
+	height: 80px;
+	line-height: 80px;
+	background-color: white;
+	border-bottom: solid 2px #f0f1ed;
+	display: flex;
+}
+.more{
+	margin-left: -15px;
+	margin-right: -15px;
+	height: 35px;
+	line-height: 35px;
+	background-color: #8fc6ea;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.sale-img{
+	margin-top:8px;
+	width: 70px;
+	height: 60px;
+	background:linear-gradient(135deg,rgb(102,102,102) 15px,rgb(102,102,102) 0,rgb(0,194,174) 10px,rgb(0,194,174) 30px,rgb(102,102,102) 0,rgb(102,102,102) 100%)
+}
+p{	
+	transform: rotate(-45deg);
+	color: #fff;
+	font-size: 12px;
+	margin-left: -40px;
+	margin-top: -20px;
+	color: white;
+	text-align: center;
+}
+.sale-txt{
+	height: 80px;
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.sale-head{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	height: 15px;
+	line-height: 20px;
+	color: #4b4b4b;
+	font-size: 1.2em;
+}
+.sale-middle{
+	height: 15px;
+	line-height: 15px;
+	color: #858585;
+	font-size: 0.9em;
+}
+.sale-foot{
+	width: 240px;
+	height: 40px;
+	line-height: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+.footr{
+	height: 60px;
+	line-height: 40px;
+	display: flex;
+}
+.yuan{
+	height: 20px;
+	line-height: 35px;
+	margin-bottom: 20px;
+	color: #00C2AF;
+	font-size: 0.9em;
+}
+.fullprice{
+	margin-left: 5px;
+	color: #858585;
+	font-size: 0.9em;
+	height: 20px;
+	line-height: 35px;
+	margin-bottom: 20px;
+}
+.foot-price{
+	margin-top: -6px;
+	font-size: 1.5em;
+	color: #00C2AF;
+}
+.youhui{
+	margin-left: 10px;
+	margin-top: 4px;
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 0.9em;
+	text-align: center;
+	color: #ffc56d;
+	border:solid 2px #ffc56d; 
+	border-radius: 5px 5px 5px 5px;
+}
+.salenum{
+/*	margin-left: 50px;*/
+	margin-top: -2px;
+	font-size: 0.9em;
+	color: #858585;
+}
+.more-txt{
+	margin-left: 10px;
+	color: #00c2af;
+}
+.more-click{
+	margin-right: 10px;
+	font-size: 1.5em;
+	color: #00c2af;
+}
